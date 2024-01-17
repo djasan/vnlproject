@@ -1,7 +1,15 @@
-import {menuEntries} from "./modules/menuEntries.js"
+
+
+// Importez vos modules existants
+import { menuEntries } from "./modules/menuEntries.js";
 import { createEntry } from "./modules/menu.js";
 import { burgerManager } from "./modules/burgerManager.js";
-console.dir(menuEntries);
-const navMenu = document.querySelector("#navMenu");
-createEntry( menuEntries,navMenu );
-burgerManager();
+import { slickMin} from "./modules/slider.js";
+
+
+
+    const navMenu = document.querySelector("#navMenu");
+    createEntry(menuEntries, navMenu);
+    burgerManager();
+    Slider();
+
