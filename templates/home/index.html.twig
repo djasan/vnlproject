@@ -22,31 +22,17 @@
     <div class="slider">
         <div>
             <img src="{{ asset('/assets/slider/1704336584120.jpg') }}" alt="Slide 1">
-            <p>helloworld 1</p>
+           <button>helloworld 1</button>
         </div>
         <!-- Ajoutez d'autres diapositives selon vos besoins -->
         <div>
             <img src="{{ asset('/assets/slider/1705433234340.jpg') }}" alt="Slide 1">
-            <p>helloworld 2</p>
+            <button>helloworld 2</button>
         </div>
         <div>
             <img src="{{ asset('/assets/slider/1705433401206.jpg') }}" alt="Slide 1">
-            <p>helloworld 3</p>
+           <button>helloworld 3</button>
         </div>
-    </div>
-
-    <script>
-        $(document).ready(function(){
-            $('.slider').slick({
-                /* Options du slider */
-                dots: true,
-                infinite: true,
-                speed: 500,
-                fade: true,
-                cssEase: 'linear'
-            });
-        });
-    </script>
-</div>
+    
 {% endblock %}
 
